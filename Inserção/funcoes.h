@@ -22,10 +22,10 @@ void InsertionSort(int * V, int N){
 
     }
 }
-void ExibirVetor(int * V, int N){
-    for(int I = 0; I <  N; I++){
-
-    printf("%d\t", V[I]);}
+void ExibirVetor(int * V, int N)
+{
+    for(int I = 0; I <  N; I++) {
+  printf("%d\t", V[I]);}
 }
 
 #endif

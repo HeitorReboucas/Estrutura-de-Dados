@@ -5,9 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "Main.h"
-
-
-
+
 void InsertionSort(int * V, int N){
     int Chave; //Elemento que será inserido na parte ordenada
     int J; // Posição do elemento da parte ordenada comparavel

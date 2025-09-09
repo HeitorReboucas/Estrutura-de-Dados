@@ -20,10 +20,8 @@ void InsertionSort(int * V, int N){
         }
         V[J + 1] = Chave; // Copiando o Chave no Lugar do ultimo numero
 
-    }
-
-
-}
+    }
+}
 void ExibirVetor(int * V, int N){
     for(int I = 0; I <  N; I++){
 

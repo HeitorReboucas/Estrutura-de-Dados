@@ -11,7 +11,7 @@ Lista * CriarLista(int C){
         printf("Erro: Falta memoria");
         return NULL;}
 
-    L ->Tamanho = 0;
+    L->Tamanho = 0;
     L->Capacidade = C;
     //Alocação de memória pro vetor
     L->Dados = (Tarefa *) (C * sizeof(Tarefa));

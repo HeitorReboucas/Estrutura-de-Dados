@@ -28,7 +28,7 @@ int main(int argc, char *argv)
     printf("%d\n", A->Chave);
     printf("%d\n", A->Proximo->Chave);
     printf("%d\n", A->Proximo->Proximo->Chave);
-    printf("%d\n", A->Proximo->Proximo->Proximo->Chave);
+    printf("%d\n", A->Proximo->Proximo->Proximo->Chave);    
 
     return 0;
 }

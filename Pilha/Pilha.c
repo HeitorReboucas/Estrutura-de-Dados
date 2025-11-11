@@ -35,3 +35,14 @@ void empilhar(pilha * P, item * X){
     P->Topo = X
     P->Tamanho++;
 }
+
+void desempilhar(pilha * P){
+    if(P->Tamanho == 0){
+printf("Erro: Pilha Vazia")
+return ;}
+item * x = P->Topo
+p->topo = X->anterior;
+free(x)
+p->tamanho--;
+
+}

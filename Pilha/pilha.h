@@ -17,5 +17,6 @@ pilha * CriarPilha();
 item * CriarItem(int Chave);
 
 void empilhar(pilha * P, item * X);
+void desempilhar(pilha * P, item * X);
 
 #endif

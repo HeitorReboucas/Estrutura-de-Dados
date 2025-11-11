@@ -29,9 +29,7 @@ int main(){
 
 
     /**Exercício:
-    
     Item * atual = E;
-
         atual = atual->Posterior;
         atual = atual->Posterior;
         atual = atual->Posterior;

@@ -21,7 +21,7 @@ No * CriarNo(char Chave){
     }
     N->chave = Chave;
     N->Esquerda = NULL;
-    n->Direita = NULL;
+    N->Direita = NULL;
     //for (int I = 0; I = 3; I++) F[I] = NULL;
 }
 
